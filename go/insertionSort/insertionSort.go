@@ -17,7 +17,6 @@ func main() {
 		a[j+1] = key
 	}
 
-	for _, value := range a {
-		fmt.Println(value)
-	}
+	fmt.Println(a)
+
 }
